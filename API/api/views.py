@@ -3,7 +3,7 @@ from django.views.decorators.csrf import csrf_exempt
 from rest_framework.renderers import JSONRenderer
 from rest_framework.parsers import JSONParser
 from API.models import ideator
-from API.serializers import ideatorSerializer
+from .serializers import ideatorSerializer
 
 
 @csrf_exempt
